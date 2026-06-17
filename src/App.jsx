@@ -19,35 +19,35 @@ function App() {
       <main>
         <header>
           <nav>
-            <img src="/public/logo.svg" className="logo" alt="Snap Logo" />
+            <img src="/logo.svg" className="logo" alt="Snap Logo" />
             <ul>
               <li onClick={toggleFeatures} className="features">
                 Features
-                <img src="/public/icon-arrow-down.svg" alt="" />
+                <img src="/icon-arrow-down.svg" alt="" />
                 {isFeaturesOpen && (
                   <div className="drop-down">
                     <ul>
                       <li>
                         <a href="#features">
-                          <img src="/public/icon-todo.svg" alt="" />
+                          <img src="/icon-todo.svg" alt="" />
                           Todo List
                         </a>
                       </li>
                       <li>
                         <a href="#features">
-                          <img src="/public/icon-calendar.svg" alt="" />
+                          <img src="/icon-calendar.svg" alt="" />
                           Calendar
                         </a>
                       </li>
                       <li>
                         <a href="#features">
-                          <img src="/public/icon-reminders.svg" alt="" />
+                          <img src="/icon-reminders.svg" alt="" />
                           Reminder
                         </a>
                       </li>
                       <li>
                         <a href="#features">
-                          <img src="/public/icon-planning.svg" alt="" />
+                          <img src="/icon-planning.svg" alt="" />
                           Planning
                         </a>
                       </li>
@@ -57,7 +57,7 @@ function App() {
               </li>
               <li onClick={toggleCompany} className="company">
                 Company
-                <img src="/public/icon-arrow-down.svg" alt="" />
+                <img src="/icon-arrow-down.svg" alt="" />
                 {isCompanyOpen && (
                   <div className="drop-down">
                     <ul>
@@ -87,7 +87,7 @@ function App() {
             </div>
 
             <button onClick={()=> setIsMenuOpen(!isMenuOpen)} className="menu">
-              <img src="/public/icon-menu.svg" alt="" />
+              <img src="/icon-menu.svg" alt="" />
             </button>
           </nav>
 
@@ -96,39 +96,39 @@ function App() {
 
             <div className="side-bar">
               <button onClick={()=> setIsMenuOpen(!isMenuOpen)} className="menu">
-                <img src="/public/icon-close-menu.svg" alt="" />
+                <img src="/icon-close-menu.svg" alt="" />
               </button>
 
               <ul>
                 <li onClick={toggleFeatures} className="features">
                   <span>
                     Features
-                    <img src="/public/icon-arrow-down.svg" alt="" />
+                    <img src="/icon-arrow-down.svg" alt="" />
                   </span>
                   {isFeaturesOpen && (
                     <div className="drop-down">
                       <ul>
                         <li>
                           <a href="#features">
-                            <img src="/public/icon-todo.svg" alt="" />
+                            <img src="/icon-todo.svg" alt="" />
                             Todo List
                           </a>
                         </li>
                         <li>
                           <a href="#features">
-                            <img src="/public/icon-calendar.svg" alt="" />
+                            <img src="/icon-calendar.svg" alt="" />
                             Calendar
                           </a>
                         </li>
                         <li>
                           <a href="#features">
-                            <img src="/public/icon-reminders.svg" alt="" />
+                            <img src="/icon-reminders.svg" alt="" />
                             Reminder
                           </a>
                         </li>
                         <li>
                           <a href="#features">
-                            <img src="/public/icon-planning.svg" alt="" />
+                            <img src="/icon-planning.svg" alt="" />
                             Planning
                           </a>
                         </li>
@@ -139,7 +139,7 @@ function App() {
                 <li onClick={toggleCompany} className="company">
                   <span>
                     Company
-                    <img src="/public/icon-arrow-down.svg" alt="" />
+                    <img src="/icon-arrow-down.svg" alt="" />
                   </span>
                   {isCompanyOpen && (
                     <div className="drop-down">
@@ -184,22 +184,22 @@ function App() {
             </p>
             <button>Learn more</button>
             <div>
-              <img src="/public/client-audiophile.svg" alt="Audiophile Logo" />
-              <img src="/public/client-databiz.svg" alt="Databiz Logo" />
-              <img src="/public/client-maker.svg" alt="Maker Logo" />
-              <img src="/public/client-meet.svg" alt="Meet Logo" />
+              <img src="/client-audiophile.svg" alt="Audiophile Logo" />
+              <img src="/client-databiz.svg" alt="Databiz Logo" />
+              <img src="/client-maker.svg" alt="Maker Logo" />
+              <img src="/client-meet.svg" alt="Meet Logo" />
             </div>
           </div>
 
           <div className="right">
             <img
               className="hero-img-desktop"
-              src="/public/image-hero-desktop.png"
+              src="/image-hero-desktop.png"
               alt=""
             />
             <img
               className="hero-img-mobile"
-              src="/public/image-hero-mobile.png"
+              src="/image-hero-mobile.png"
               alt=""
             />
           </div>
